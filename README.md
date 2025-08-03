@@ -1,106 +1,12 @@
-# ✅ To-Do App — React + Vite + Tailwind CSS
+# React + Vite
 
-This is a beautifully styled and fully functional **To-Do App** built using **React**, **Vite**, and **Tailwind CSS**. The app allows you to:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- Add tasks 📝
-- Mark tasks as complete ✅
-- Delete tasks ❌
-- Enjoy a smooth, responsive, and modern UI 💚
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Why I Built This
+## Expanding the ESLint configuration
 
-I built this project as a hands-on way to **improve my skills** in:
-
-- **React** — building dynamic component-based interfaces
-- **Vite** — fast frontend tooling for development
-- **Tailwind CSS** — utility-first CSS framework for building professional UIs
-
-This project helped me understand how these modern tools work together in a real-world UI/UX scenario.
-
----
-
-## 📸 Preview
-
-<img width="1920" height="1080" alt="Screenshot 2025-08-02 140613" src="https://github.com/user-attachments/assets/bf82e3a6-1064-46fe-bba4-c74c4592a3c9" />
-
-
----
-
-## 🛠️ Tech Stack
-
-- ⚛️ React (Functional Components + Hooks)
-- ⚡ Vite (Fast development build tool)
-- 🎨 Tailwind CSS (Modern UI styling)
-
----
-
-## 🧩 Features
-
-- Full-screen responsive layout
-- Add and delete tasks
-- Mark tasks as completed
-- Clean, modern green-white color palette
-- Beautiful interactive UI using Tailwind CSS
-
----
-
-## 🔧 Installation & Setup Instructions
-
-Follow these steps to run the project locally on your machine:
-
-1️⃣ Clone the Repository
-
-git clone https://github.com/Osagani31/To-Do-App.git
-cd To-Do-App
-
-2️⃣ Install Dependencies
-
-Make sure you have Node.js installed. Then run:
-
-npm install
-
-3️⃣ Start the Development Server
-
-This will start the app at:
-📍 http://localhost:5173 (or similar)
-npm run dev
-
-## 🧪 Setup Tailwind CSS with Vite + React (Manual Steps I Learned)
-
-If you're starting from scratch, here are the steps I followed:
-
-📦 Step 1: Create Vite + React Project
-
-npm create vite@latest my-app -- --template react
-cd my-app
-npm install
-
-🎨 Step 2: Install Tailwind CSS
-
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-
-🧾 Step 3: Configure Tailwind
-
-Edit tailwind.config.js:
-
-content: [
-  "./index.html",
-  "./src/**/*.{js,ts,jsx,tsx}",
-],
-
-📁 Step 4: Include Tailwind in CSS
-
-In src/index.css, add:
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-✅ Step 5: Run Your App
-
-npm run dev
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
