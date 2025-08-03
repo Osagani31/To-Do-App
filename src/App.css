@@ -1,0 +1,16 @@
+/* src/App.css */
+
+/* Optional: Smooth animations or scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(16, 185, 129, 0.5); /* Tailwind's green-500 */
+  border-radius: 4px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
